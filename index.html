@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BFC-test</title>
+  <style type="text/css">
+    body {
+        width: 300px;
+        position: relative;
+    }
+
+    .aside {
+        width: 100px;
+        height: 150px;
+        float: left;
+        background: #f66;
+    }
+
+    .main {
+        height: 200px;
+        background: #fcc;
+        overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div class="aside"></div>
+  <div class="main"></div>
+</body>
+</html>
