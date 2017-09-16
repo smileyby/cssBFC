@@ -7,7 +7,7 @@ BFC就是Box、Formatting Context 的概念。
 
 ### Box：CSS布局的基本单位
 
-Box是css布局的对象和基本单位，直观点说，就是一个页面是由很多歌Box组成的。元素的类型和display属性，决定了这个Box的类型。不同类型的Box,会参与不同的Formatting Context(一个决定如何渲染文档的容器)，因此Box内的元素会以不同的方式渲染。让我们看看有哪些盒子：
+Box是css布局的对象和基本单位，直观点说，就是一个页面是由很多个Box组成的。元素的类型和display属性，决定了这个Box的类型。不同类型的Box,会参与不同的Formatting Context(一个决定如何渲染文档的容器)，因此Box内的元素会以不同的方式渲染。让我们看看有哪些盒子：
 
 *	**block-level box** `display`属性为block，list-item，table的元素，会生成block-level box并参与block fomatting context；
 *	**inline-level box** `display`属性为inline, inline-block, inline-table的元素，会生成inline-level box并参与inline fomatting context；
